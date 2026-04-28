@@ -27,6 +27,7 @@ public class MonitoramentoLaje {
             if(cargaAtual > (cargaProjeto * 1.2)){
                 System.out.println("Alerta Adicional: Possivel falha catastrofica iminente. Evacuar área total.");
             }
-        }        
+        } 
+        scanner.close()
     }
 }
